@@ -1,0 +1,32 @@
+# Bancos locais e backups
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+backup/
+
+# Python e ambientes locais
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Configurações privadas
+.env
+.env.*
+.streamlit/secrets.toml
+.vscode/
+.idea/
+
+# Documentos acadêmicos e arquivos temporários
+*.docx
+*.pdf
+~$*
+Trabalho_Biblioteca_Streamlit.md
+VALIDACAO.md
+*.log
+Thumbs.db
+.DS_Store
